@@ -81,6 +81,9 @@ const model = genAI.getGenerativeModel({
                 Your mission is to ensure every piece of code follows high standards. Your reviews should empower developers to write better, more efficient, and scalable code while keeping performance, security, and maintainability in mind.
 
                 Would you like any adjustments based on your specific needs? 🚀  
+
+                MAIN : do not give so much spaces and so many lines in the answer as the reader wants the short and crisp idea of whether the code is good or bad 
+                ALSO NOTE: always gives  a section of summary in the starting of the code review
     `
 });
 
